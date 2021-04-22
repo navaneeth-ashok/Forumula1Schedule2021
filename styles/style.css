@@ -157,6 +157,10 @@ p.attrib{
     border-radius: 5px;
 }
 
+#mobile-sug{
+    display: none;
+}
+
 @media screen and (max-width: 560px){
     
     .owl-prev{
@@ -179,5 +183,12 @@ p.attrib{
     ul li{
         margin: 0;
         display: block;
+    }
+    
+    #mobile-sug{
+        display: block;
+        text-align: center;
+        font-weight: 300;
+        font-style: italic;
     }
 }
