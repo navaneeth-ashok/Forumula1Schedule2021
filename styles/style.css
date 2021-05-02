@@ -23,7 +23,7 @@ body {
 }
 
 .header{
-    background-color: red;
+    background-color: #e10600;
     color: white;
     text-align: center;
     margin: 0;
@@ -32,7 +32,7 @@ body {
 }
 
 footer{
-    background-color: red;
+    background-color: black;
     color: white;
     padding: 20px 0px 20px 0px;
     margin: 0;
@@ -150,11 +150,15 @@ p.attrib{
 .time-btn{
     float: right;
     margin: 10px 0px 10px 50px;
-    background-color: red;
+    background-color: #e10600;
     padding: 10px;
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+#mobile-sug{
+    display: none;
 }
 
 @media screen and (max-width: 560px){
@@ -179,5 +183,12 @@ p.attrib{
     ul li{
         margin: 0;
         display: block;
+    }
+    
+    #mobile-sug{
+        display: block;
+        text-align: center;
+        font-weight: 300;
+        font-style: italic;
     }
 }

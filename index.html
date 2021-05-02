@@ -10,12 +10,22 @@
         <script src="scripts/jquery-3.6.0.slim.min.js"></script>
         <script async defer src="scripts/countdown.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0P26YRR2G9"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-0P26YRR2G9');
+        </script>
     </head>
     <body>
         <div class="header">
             <h1>F1™ 2021 Race Schedule</h1>
         </div>
         <main class="page-container">
+            <p id="mobile-sug">You can drag the table left/right to display more details.</p>
             <div class="table-btns">
                 <button id="togglePage" class="time-btn">Show complete schedule</button>
                 <button id="reset" class="time-btn">Reset to UTC</button>
@@ -393,7 +403,7 @@
         </main>
         <footer>
             <p>Site designed and developed by <a href="http://navaneeth-ashok.github.io/"><span>Navaneeth Ashok</span></a> &#169; 2021</p>
-            <p>View the full project with track details <a href="https://navaneeth-ashok.github.io/formula1Schedule2021TracksProject/index.html">here</a>.</p>
+            <p>View the full project with track details <a href="https://navaneeth-ashok.github.io/formula1Schedule2021TracksProject/">here</a>.</p>
             <p class="attrib">All the track images are taken from <a href="https://formula1.com">formula1.com</a> and the stats are taken from <a href="https://www.statsf1.com/">statsf1.com</a></p>
             <p class="attrib">This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.</p>
         </footer>
